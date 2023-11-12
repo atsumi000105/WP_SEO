@@ -77,7 +77,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # The ubuntu images come with Node, npm and yarn pre-installed.
       # https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md
@@ -135,7 +135,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # The base branch is used to allow the PR checks to only run the tests relevant for changes files.
       # Note: we need to actually check out the base branch and then go back to the original branch that
@@ -154,7 +154,7 @@ jobs:
       # Check out the premium config repo ahead of running the tests to prevent issues with permissions.
       - name: Checkout premium configuration
         if: ${{ matrix.needs_premium_config == true }}
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Yoast/YoastSEO.js-premium-configuration
           path: packages/yoastseo/premium-configuration

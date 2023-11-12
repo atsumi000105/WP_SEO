@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SiteSEOReport testing suite The SiteSEOReport should match the snapshot 1`] = `
+<div
+  className="test_SiteSEOReport"
+>
+  <p
+    className="kBVise test_SiteSEOReport__text"
+  >
+    Test assessment
+  </p>
+  <div
+    className="gtyRrP progress"
+  >
+    <span
+      className="TSKIN progress__part"
+    />
+    <span
+      className="hAuseY progress__part"
+    />
+    <span
+      className="jFJshP progress__part"
+    />
+  </div>
+  <ul
+    className="ehObqn assessments"
+    role="list"
+  >
+    <li
+      className="oKxAg assessments__item"
+    >
+      <span
+        className="hjyory kEQnoi assessments__item-bullet"
+      />
+      <span
+        className="hjyory cRXDLr assessments__item-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<div></div>",
+          }
+        }
+      />
+      <span
+        className="hjyory iXpTOE assessments__item-score"
+      >
+        10
+      </span>
+    </li>
+    <li
+      className="oKxAg assessments__item"
+    >
+      <span
+        className="hjyory gQJtgv assessments__item-bullet"
+      />
+      <span
+        className="hjyory cRXDLr assessments__item-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<div></div>",
+          }
+        }
+      />
+      <span
+        className="hjyory iXpTOE assessments__item-score"
+      >
+        15
+      </span>
+    </li>
+    <li
+      className="oKxAg assessments__item"
+    >
+      <span
+        className="hjyory iCJgWQ assessments__item-bullet"
+      />
+      <span
+        className="hjyory cRXDLr assessments__item-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<div></div>",
+          }
+        }
+      />
+      <span
+        className="hjyory iXpTOE assessments__item-score"
+      >
+        20
+      </span>
+    </li>
+  </ul>
+</div>
+`;

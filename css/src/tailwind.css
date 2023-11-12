@@ -1,0 +1,55 @@
+@import "@yoast/ui-library";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.yst-root {
+		/* Reset some WP common styles */
+
+		a {
+			@apply focus:yst-shadow-none;
+		}
+
+		.yst-radio__input {
+			@apply
+			yst-transition-none
+			yst-shadow-none
+			checked:before:yst-hidden;
+		}
+
+		.yst-modal {
+			z-index: 100000 !important;
+		}
+
+		li, dd {
+			margin-bottom: 0;
+		}
+
+		input[type=date],
+		input[type=datetime-local],
+		input[type=datetime],
+		input[type=email],
+		input[type=month],
+		input[type=number],
+		input[type=password],
+		input[type=search],
+		input[type=tel],
+		input[type=text],
+		input[type=time],
+		input[type=url],
+		input[type=week] {
+			@apply yst-min-h-0;
+		}
+
+		input[type=checkbox] {
+			@apply
+			yst-min-h-0
+			yst-min-w-0
+			yst-shadow-none
+			yst-transition-none
+			before:yst-content-none;
+		}
+	}
+}
